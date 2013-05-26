@@ -20,6 +20,7 @@ window.jQuery || document.write("<script src='media/js/jquery-1.9.1.min.js'>\x3C
 <script type="text/javascript" src="themes/admin/media/js/jquery.slimscroll.min.js"></script>
 <script type="text/javascript" src="themes/admin/media/js/jquery.easy-pie-chart.min.js"></script>
 <script type="text/javascript" src="themes/admin/media/js/jquery.sparkline.min.js"></script>
+<script type="text/javascript" src="themes/admin/media/js/jquery.gritter.min.js"></script>
 <script type="text/javascript" src="themes/admin/media/js/jquery.flot.min.js"></script>
 <script type="text/javascript" src="themes/admin/media/js/jquery.flot.pie.min.js"></script>
 <script type="text/javascript" src="themes/admin/media/js/jquery.flot.resize.min.js"></script>

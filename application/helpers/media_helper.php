@@ -116,51 +116,42 @@ if(!function_exists('js_lightbox'))
 // --------------------------------------------------------------------
 if(!function_exists('js_checkbox'))
 {
-	function js_checkbox($mode=FALSE)
-	{
-		$js="";
-		if($mode=="approve")
-		{
-			$CI =& get_instance();
-			$js = '$("input:checkbox").click(function(){
-					var value = this.checked ? "draft" : "approve";
-					var name = $(this).attr("name");
-					var type = $("input[type=hidden][name=type]").val();
-					if(typeof type === "undefined"){
-						type = "";
-					}else{
-						type = $("input[type=hidden][name=type]").val()+"/";
-					};
-					
-					var jsonOptions= {};
-					jsonOptions[name]= value;
-					if(value=="draft")
-					{
-						//$(this).parent().parent().find(".success").addClass("error").removeClass("success");
-						var target = $(this).parent().parent().find(".success").parent();
-					}
-					else
-					{
-						//$(this).parent().parent().find(".error").addClass("success").removeClass("error");
-						var target = $(this).parent().parent().find(".error").parent();
-					}
+    function js_checkbox($mode=FALSE)
+    {
+        $js="";
+        if($mode=="approve")
+        {
+            $CI =& get_instance();
+            $js = '$("input:checkbox").click(function(){
+                    var value = this.checked ? "draft" : "approve";
+                    var name = $(this).attr("name");
+                    var jsonOptions= {};
+                    jsonOptions[name]= value;
+                    if(value=="draft")
+                    {   
+                        var target = $(this).parent().parent().find(".success").parent();
+                    }
+                    else
+                    {
+                        var target = $(this).parent().parent().find(".error").parent();
+                    }
 
-	
-					$.post("'.$CI->router->fetch_module().'/admin/'.$CI->router->fetch_class().'/'.$CI->router->fetch_method().'_approve/"+type+ + this.value,jsonOptions,function(data){
-						target.html(data);
-					}); 
+    
+                    $.post("'.$CI->router->fetch_module().'/admin/'.$CI->router->fetch_class().'/approve/" + this.value,jsonOptions,function(data){
+                        target.html(data);
+                    }); 
 
-					});';
-		}
-		return '<link rel="stylesheet" href="media/js/checkbox/jquery.checkbox.css" />
-			<script type="text/javascript" src="media/js/checkbox/jquery.checkbox.min.js"></script>
-			<script>
-				$(function(){
-					$("input:checkbox,input:radio").checkbox({empty:"media/js/checkbox/empty.png"});
-					'.$js.'
-				});
-			</script>';
-	}
+                    });';
+        }
+        return '<link rel="stylesheet" href="media/js/checkbox/jquery.checkbox.css" />
+            <script type="text/javascript" src="media/js/checkbox/jquery.checkbox.min.js"></script>
+            <script>
+                $(function(){
+                    $("input:checkbox,input:radio").checkbox({empty:"media/js/checkbox/empty.png"});
+                    '.$js.'
+                });
+            </script>';
+    }
 }
 
 // --------------------------------------------------------------------

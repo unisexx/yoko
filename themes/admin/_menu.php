@@ -119,42 +119,53 @@
         
         <li>----- END Demo -----</li>
 
-        <li <?php echo menu_active('users','administrators',false,'active open')?><?php echo menu_active('users','users',FALSE,'active open')?>>
-          <a href="#" class="dropdown-toggle" >
-            <i class="icon-user"></i>
-            <span>User</span>
-            <b class="arrow icon-angle-down"></b>
+        <li <?php echo menu_active('hilights','hilights')?>>
+          <a href="hilights/admin/hilights">
+            <i class="icon-th"></i>
+            <span>Hilight</span>
           </a>
-          <ul class="submenu">
-            <li <?php echo menu_active('users','administrators')?>><a href="users/admin/administrators"><i class="icon-double-angle-right"></i> ผู้ดูแล</a></li>
-            <li <?php echo menu_active('users','users')?>><a href="users/admin/users"><i class="icon-double-angle-right"></i> สมาชิก</a></li>
-          </ul>
         </li>
         
-        <li <?php echo menu_active('forms',false,'categories','active open')?><?php echo menu_active('forms',false,'wants','active open')?><?php echo menu_active('forms',false,'types','active open')?><?php echo menu_active('adfrees','adfrees',FALSE,'active open')?>>
-          <a href="#" class="dropdown-toggle">
-            <i class="icon-bullhorn"></i>
-            <span>Adfree</span>
-            <b class="arrow icon-angle-down"></b>
+        <li <?php echo menu_active('abouts','abouts')?>>
+          <a href="abouts/admin/abouts/form">
+            <i class="icon-th"></i>
+            <span>About Us</span>
           </a>
-          <ul class="submenu">
-            <li <?php echo menu_active('forms',false,'categories')?>><a href="forms/admin/forms/categories"><i class="icon-double-angle-right"></i> หมวดหมู่สินค้า</a></li>
-            <li <?php echo menu_active('forms',false,'wants')?>><a href="forms/admin/forms/wants"><i class="icon-double-angle-right"></i> ความต้องการ</a></li>
-            <li <?php echo menu_active('forms',false,'types')?>><a href="forms/admin/forms/types"><i class="icon-double-angle-right"></i> ประเภทสินค้า</a></li>
-            <li <?php echo menu_active('adfrees','adfrees')?>><a href="adfrees/admin/adfrees"><i class="icon-double-angle-right"></i> ฟรีประกาศ</a></li>
-          </ul>
         </li>
         
-        <li <?php echo menu_active('contents',false,'index','active open')?>>
-          <a href="#" class="dropdown-toggle" >
-            <i class="icon-list-alt"></i>
-            <span>Content</span>
-            <b class="arrow icon-angle-down"></b>
+        <li <?php echo menu_active('addresses','addresses')?>>
+          <a href="addresses/admin/addresses/form">
+            <i class="icon-th"></i>
+            <span>Address</span>
           </a>
-          <ul class="submenu">
-            <li <?php echo menu_active('contents',false,'index')?>><a href="contents/admin/contents/index/articles"><i class="icon-double-angle-right"></i> บทความ</a></li>
-            <li <?php echo menu_active('contents',false,'index')?>><a href="contents/admin/contents/index/weblinks"><i class="icon-double-angle-right"></i> ลิ้งค์เพื่อนบ้าน</a></li>
-          </ul>
+        </li>
+        
+        <li <?php echo menu_active('informations','informations')?>>
+          <a href="informations/admin/informations">
+            <i class="icon-th"></i>
+            <span>Informations</span>
+          </a>
+        </li>
+        
+        <li <?php echo menu_active('address','address')?>>
+          <a href="addresses/admin/addresses/form">
+            <i class="icon-th"></i>
+            <span>Gallery</span>
+          </a>
+        </li>
+        
+        <li <?php echo menu_active('address','address')?>>
+          <a href="addresses/admin/addresses/form">
+            <i class="icon-th"></i>
+            <span>Contect Us</span>
+          </a>
+        </li>
+        
+        <li <?php echo menu_active('address','address')?>>
+          <a href="addresses/admin/addresses/form">
+            <i class="icon-th"></i>
+            <span>Dashboard</span>
+          </a>
         </li>
         
     </ul><!--/.nav-list-->

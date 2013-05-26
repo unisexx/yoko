@@ -17,6 +17,7 @@
 <link rel="stylesheet" href="themes/admin/media/css/colorpicker.css" />
 <link rel="stylesheet" href="themes/admin/media/css/fullcalendar.css" />
 <link rel="stylesheet" href="themes/admin/media/css/colorbox.css" />
+<link rel="stylesheet" href="themes/admin/media/css/jquery.gritter.css">
 
 <!-- ace styles -->
 <link rel="stylesheet" href="themes/admin/media/css/ace.min.css" />

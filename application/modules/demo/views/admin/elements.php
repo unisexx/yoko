@@ -573,7 +573,7 @@ $(function() {
             $.gritter.add({
                 title: 'This is a regular notice!',
                 text: 'This will fade out after a certain amount of time. Vivamus eget tincidunt velit. Cum sociis natoque penatibus et <a href="#" class="blue">magnis dis parturient</a> montes, nascetur ridiculus mus.',
-                image: 'media/images/avatar1.png',
+                image: 'themes/admin/media/images/avatar1.png',
                 sticky: false,
                 time: '',
                 class_name: (!$('#gritter-light').get(0).checked ? 'gritter-light' : '')
@@ -586,7 +586,7 @@ $(function() {
             var unique_id = $.gritter.add({
                 title: 'This is a sticky notice!',
                 text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget tincidunt velit. Cum sociis natoque penatibus et <a href="#" class="red">magnis dis parturient</a> montes, nascetur ridiculus mus.',
-                image: 'media/images/avatar.png',
+                image: 'themes/admin/media/images/avatar.png',
                 sticky: true,
                 time: '',
                 class_name: 'gritter-info' + (!$('#gritter-light').get(0).checked ? ' gritter-light' : '')
@@ -613,7 +613,7 @@ $(function() {
             $.gritter.add({
                 title: 'This is a notice with a max of 3 on screen at one time!',
                 text: 'This will fade out after a certain amount of time. Vivamus eget tincidunt velit. Cum sociis natoque penatibus et <a href="#" class="green">magnis dis parturient</a> montes, nascetur ridiculus mus.',
-                image: 'media/images/avatar3.png',
+                image: 'themes/admin/media/images/avatar3.png',
                 sticky: false,
                 before_open: function(){
                     if($('.gritter-item-wrapper').length >= 3)
