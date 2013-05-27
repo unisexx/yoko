@@ -28,7 +28,7 @@
         <div class="control-group">
             <label class="control-label" for="form-field-9">รายละเอียด</label>
             <div class="controls">
-                <textarea class="input-xxlarge limited" rows="5" id="form-field-9" data-maxlength="150" name="detail"><?php echo $hilight->detail?></textarea>
+                <textarea class="input-xxlarge limited" rows="5" id="form-field-9" data-maxlength="250" name="detail"><?php echo $hilight->detail?></textarea>
             </div>
         </div>
         

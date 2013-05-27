@@ -11,9 +11,9 @@
             <thead>
                 <tr>
                     <th>สถานะ</th>
+                    <th>รูป</th>
                     <th>หัวข้อ</th>
                     <th>ข้อความ</th>
-                    <th>รูป</th>
                     <th><a class="btn btn-mini btn-primary" href="hilights/admin/hilights/form"><i class="icon-pencil"></i> เพิ่มรายการ </a></th>
                 </tr>
             </thead>
@@ -24,9 +24,9 @@
                     <td>
                         <label><input class="ace-switch ace-switch-4" type="checkbox" name="status" value="<?php echo $hilight->id ?>" <?php echo ($hilight->status=="approve")?'checked="checked"':'' ?>/><span class="lbl"></span></label>
                     </td>
+                    <td><img src="uploads/hilight/<?php echo $hilight->image?>" width="600"></td>
                     <td><?php echo $hilight->title?></td>
                     <td><?php echo $hilight->detail?></td>
-                    <td><img src="uploads/hilight/<?php echo $hilight->image?>" width="600"></td>
                     <td>
                         <div class='hidden-phone visible-desktop btn-group'>
                             <a href="hilights/admin/hilights/form/<?php echo $hilight->id?>" class='btn btn-mini btn-info'><i class='icon-edit'></i></a>

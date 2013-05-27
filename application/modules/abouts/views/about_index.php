@@ -1,7 +1,10 @@
-<div class="aboutus">
-	<div class="header-bar">
-		<h1><?php echo $about->title?></h1>
-	</div>
-	
-	<div class="detail"><?php echo $about->detail?></div>
+<div class="page-title clearfix">
+    <h1>เกี่ยวกับเรา</h1>
+    <span>เกี่ยวกับเรา</span>
+</div>
+
+<div class="row-fluid">
+    <div class="span6">
+        <?php echo $about->detail?>
+    </div>
 </div>
