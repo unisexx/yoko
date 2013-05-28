@@ -118,53 +118,67 @@
         </li>
         
         <li>----- END Demo -----</li>
+        
+        <li <?php echo menu_active('dashboards','dashboards')?>>
+          <a href="dashboards/admin/dashboards/form">
+            <i class="icon-th"></i>
+            <span>แดชบอร์ด</span>
+          </a>
+        </li>
 
         <li <?php echo menu_active('hilights','hilights')?>>
           <a href="hilights/admin/hilights">
             <i class="icon-th"></i>
-            <span>Hilight</span>
-          </a>
-        </li>
-        
-        <li <?php echo menu_active('abouts','abouts')?>>
-          <a href="abouts/admin/abouts/form">
-            <i class="icon-th"></i>
-            <span>About Us</span>
-          </a>
-        </li>
-        
-        <li <?php echo menu_active('addresses','addresses')?>>
-          <a href="addresses/admin/addresses/form">
-            <i class="icon-th"></i>
-            <span>Address</span>
+            <span>ไฮไลท์</span>
           </a>
         </li>
         
         <li <?php echo menu_active('informations','informations')?>>
           <a href="informations/admin/informations">
             <i class="icon-th"></i>
-            <span>Informations</span>
+            <span>ข่าวสาร & โปรโมชัน</span>
           </a>
         </li>
         
         <li <?php echo menu_active('address','address')?>>
           <a href="addresses/admin/addresses/form">
             <i class="icon-th"></i>
-            <span>Gallery</span>
+            <span>ผลงานของเรา</span>
           </a>
         </li>
         
-        <li <?php echo menu_active('address','address')?>>
-          <a href="addresses/admin/addresses/form">
+        <li <?php echo menu_active('services','services')?>>
+          <a href="services/admin/services/form">
             <i class="icon-th"></i>
-            <span>Contect Us</span>
+            <span>บริการของเรา</span>
           </a>
         </li>
         
-        <li <?php echo menu_active('address','address')?>>
+        <li <?php echo menu_active('abouts','abouts')?>>
+          <a href="abouts/admin/abouts/form">
+            <i class="icon-th"></i>
+            <span>เกี่ยวกับเรา</span>
+          </a>
+        </li>
+        
+        <li <?php echo menu_active('addresses','addresses')?>>
           <a href="addresses/admin/addresses/form">
             <i class="icon-th"></i>
-            <span>Dashboard</span>
+            <span>ที่อยู่บริษัท</span>
+          </a>
+        </li>
+        
+        <li <?php echo menu_active('weblinks','weblinks')?>>
+          <a href="weblinks/admin/weblinks">
+            <i class="icon-th"></i>
+            <span>เว็บลิ้งค์</span>
+          </a>
+        </li>
+        
+        <li <?php echo menu_active('contacts','contacts')?>>
+          <a href="contacts/admin/contacts">
+            <i class="icon-th"></i>
+            <span>ติดต่อ สอบถาม</span>
           </a>
         </li>
         

@@ -48,3 +48,11 @@ window.jQuery || document.write("<script src='media/js/jquery-1.9.1.min.js'>\x3C
 <?php // echo js_lightbox(); ?>
 <?php // echo js_checkbox('approve'); ?>
 <?php echo $template['metadata']; ?>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.pagination li.disabled a,.pagination li.active a').click(function(){
+        return false;
+    });
+});
+</script>

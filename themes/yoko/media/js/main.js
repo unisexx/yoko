@@ -1,6 +1,5 @@
 $(document).ready(function(){
-
-
+	
     $('.p2col .span6:even').addClass('no-margin-left');
 
     //prettyPhoto

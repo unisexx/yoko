@@ -16,3 +16,4 @@
 <script type="text/javascript" src="themes/yoko/media/js/ajax-mail.js"></script>
 <script type="text/javascript" src="themes/yoko/media/js/accordion.settings.js"></script>
 <script type="text/javascript" src="themes/yoko/media/js/supersized.3.2.7.min.js"></script>
+<?php echo $template['metadata']; ?>

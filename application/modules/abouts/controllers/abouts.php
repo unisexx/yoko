@@ -9,5 +9,10 @@ class Abouts extends Public_Controller{
 		$data['about'] = new About(1);
 		$this->template->build('about_index',$data);
 	}
+    
+    function inc_home(){
+        $data['about'] = new About(1);
+        $this->load->view('inc_home',$data);
+    }
 }
 ?>

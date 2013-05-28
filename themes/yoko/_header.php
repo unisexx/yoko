@@ -34,10 +34,10 @@
     <nav id="menu" class="clearfix">
         <ul>
             <li><a href="home">หน้าแรก</a></li>
+            <li><a href="informations">ข่าวสารและโปรโมชัน</a></li>
             <li><a href="./portfolio4.html" >ผลงานของเรา</a></li>
-            <li><a href="./blog.html">ข่าวสารและโปรโมชัน</a></li>
-            <li><a href="abouts">เกี่ยวกับเรา</a></li>
-            <li><a href="./services.html" >บริการของเรา</a></li>
+            <!-- <li><a href="abouts">เกี่ยวกับเรา</a></li> -->
+            <li><a href="services" >บริการของเรา</a></li>
             <li><a href="contacts" >ติดต่อเรา</a></li>
         </ul>
     </nav>

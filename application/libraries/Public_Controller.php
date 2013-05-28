@@ -10,8 +10,11 @@ class Public_Controller extends Master_Controller
 		$this->template->set_theme('yoko');
     	$this->template->set_layout('layout');
 		
-		// Set js
+		// Set lang
 		$this->lang->load('admin');
+        
+        // Set js
+        $this->template->append_metadata(js_notify());
 	}
 }
 ?>

@@ -44,6 +44,8 @@
             <?php endforeach;?>
             </tbody>
         </table>
+        
+        <?php echo $informations->pagination()?>
     </div><!--/span-->
 </div><!--/row-->
 

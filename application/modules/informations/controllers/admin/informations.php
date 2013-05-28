@@ -7,7 +7,7 @@ class Informations extends Admin_Controller
     
     function index(){
         $data['informations'] = new Information();
-        $data['informations']->order_by('id','desc')->get();
+        $data['informations']->order_by('id','desc')->get_page();
         $this->template->build('admin/index',$data);
     }
     

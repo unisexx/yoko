@@ -85,16 +85,16 @@ $(function () {
         var dataString = 'name=' + name + '&email=' + email + '&message=' + message;
         //alert (dataString);return false;
 
-        $.ajax({
-            type:"POST",
-            url:"process.php",
-            data:dataString,
-            success:function () {
-                $('#contact').append('<div class="modal hide" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"><div class="modal-body"><p><strong class="color2">Your message was sent!</strong> - We will get back at You soon!</p></div><div class="modal-footer"><a href="#" class="btn" data-dismiss="modal">Close</a></div></div>');
-                $('#contactModal').modal();
-                $('#contact')[0].reset();
-            }
-        });
-        return false;
+        // $.ajax({
+            // type:"POST",
+            // url:"process.php",
+            // data:dataString,
+            // success:function () {
+                // $('#contact').append('<div class="modal hide" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"><div class="modal-body"><p><strong class="color2">Your message was sent!</strong> - We will get back at You soon!</p></div><div class="modal-footer"><a href="#" class="btn" data-dismiss="modal">Close</a></div></div>');
+                // $('#contactModal').modal();
+                // $('#contact')[0].reset();
+            // }
+        // });
+        // return false;
     });
 });
