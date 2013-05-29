@@ -3,9 +3,9 @@
            <div class="container-fluid">
 
 
-              <a class="brand" href="#"><small><i class="icon-leaf"></i> Ace Admin</small> </a>
+              <a class="brand" href="#"><small><i class="icon-leaf"></i> ประยงด์ปาร์เก้</small> </a>
               <ul class="nav ace-nav pull-right">
-                    <li class="grey">
+                    <!-- <li class="grey">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <i class="icon-tasks"></i>
                             <span class="badge">4</span>
@@ -181,7 +181,7 @@
                             </li>                                   
     
                         </ul>
-                    </li>
+                    </li> -->
 
 
                     <li class="light-blue user-profile">
@@ -193,8 +193,8 @@
                             <i class="icon-caret-down"></i>
                         </a>
                         <ul id="user_menu" class="pull-right dropdown-menu dropdown-yellow dropdown-caret dropdown-closer">
-                            <li><a href="#"><i class="icon-cog"></i> Settings</a></li>
-                            <li><a href="#"><i class="icon-user"></i> Profile</a></li>
+                            <!-- <li><a href="#"><i class="icon-cog"></i> Settings</a></li> -->
+                            <li><a href="users/admin/administrators/form/1"><i class="icon-user"></i> Profile</a></li>
                             <li class="divider"></li>
                             <li><a href="users/admin/auth/logout" onclick="return confirm('Do you want to logout?')"><i class="icon-off"></i> Logout</a></li>
                         </ul>

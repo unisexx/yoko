@@ -1,9 +1,9 @@
-<div class="message-top">
+<!-- <div class="message-top">
     <button data-dismiss="alert" class="close" type="button">×</button>
     <div class="container">
         <strong>Warning!</strong> This is a standard notification, may be used for marketing needs.
     </div>
-</div>
+</div> -->
 <div class="container wrap">
 
 <section id="top-menu">
@@ -35,7 +35,7 @@
         <ul>
             <li><a href="home">หน้าแรก</a></li>
             <li><a href="informations">ข่าวสารและโปรโมชัน</a></li>
-            <li><a href="./portfolio4.html" >ผลงานของเรา</a></li>
+            <li><a href="portfolios" >ผลงานของเรา</a></li>
             <!-- <li><a href="abouts">เกี่ยวกับเรา</a></li> -->
             <li><a href="services" >บริการของเรา</a></li>
             <li><a href="contacts" >ติดต่อเรา</a></li>

@@ -10,7 +10,7 @@ class Administrators extends Admin_Controller
 	public function index()
 	{
 		$data['users'] = new User;
-		$data['users']->where('level_id',1);
+		$data['users']->where('level_id',1)->get_page();
 		$this->template->build('admin/admins/index',$data);
 	}
 	
@@ -31,7 +31,8 @@ class Administrators extends Admin_Controller
 			$user->save();
 			set_notify('success', lang('save_data_complete'));	
 		}
-		redirect('users/admin/administrators');
+		// redirect('users/admin/administrators');
+		redirect($_SERVER['HTTP_REFERER']);
 	}
 	
 	public function delete($id)

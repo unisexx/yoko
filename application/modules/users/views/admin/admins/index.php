@@ -12,9 +12,7 @@
         <th>อีเมล์</th>
         <th>กลุ่มผู้ใช้งาน</th>
         <th width="100">
-            <?php if(permission('administrators', 'create')):?>
                 <?php echo anchor('users/admin/administrators/form',lang('btn_add'),'class="btn btn-primary btn-mini"')?>
-            <?php endif;?>
         </th>
     </tr>
     </thead>
@@ -26,12 +24,8 @@
         <td><?php echo $user->email?></td>
         <td><?php echo $user->user_type->name?></td>
         <td>
-            <?php if(permission('administrators', 'update')):?>
                 <?php echo anchor('users/admin/administrators/form/'.$user->id,'<i class="icon-edit"></i>','class="btn btn-success btn-mini"')?>
-            <?php endif;?>
-            <?php if(permission('administrators', 'delete')):?>
                 <?php echo anchor('users/admin/administrators/delete/'.$user->id,'<i class="icon-trash"></i>','class="btn btn-danger btn-mini" onclick="return confirm(\''.lang('confirm_delete').'\')"')?>
-            <?php endif;?>
         </td>
     </tr>
     <?php endforeach?>

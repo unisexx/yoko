@@ -1,5 +1,5 @@
 <div id="sidebar">
-    <div id="sidebar-shortcuts">
+    <!-- <div id="sidebar-shortcuts">
         <div id="sidebar-shortcuts-large">
             <button class="btn btn-small btn-success"><i class="icon-signal"></i></button>
             <button class="btn btn-small btn-info"><i class="icon-pencil"></i></button>
@@ -12,10 +12,10 @@
             <span class="btn btn-warning"></span>
             <span class="btn btn-danger"></span>
         </div>
-    </div><!-- #sidebar-shortcuts -->
+    </div> --><!-- #sidebar-shortcuts -->
 
     <ul class="nav nav-list">
-        <li <?php echo menu_active('demo',false,'index')?>>
+        <!-- <li <?php echo menu_active('demo',false,'index')?>>
           <a href="demo/admin/demo/index">
             <i class="icon-dashboard"></i>
             <span>Dashboard</span>
@@ -117,67 +117,74 @@
           </ul>
         </li>
         
-        <li>----- END Demo -----</li>
+        <li>----- END Demo -----</li> -->
         
         <li <?php echo menu_active('dashboards','dashboards')?>>
-          <a href="dashboards/admin/dashboards/form">
-            <i class="icon-th"></i>
+          <a href="dashboards/admin/dashboards">
+            <i class="icon-dashboard"></i>
             <span>แดชบอร์ด</span>
           </a>
         </li>
+        
+        <!-- <li <?php echo menu_active('users','administrators')?>>
+          <a href="users/admin/administrators">
+            <i class="icon-user"></i>
+            <span>ผู้ดูแลระบบ</span>
+          </a>
+        </li> -->
 
         <li <?php echo menu_active('hilights','hilights')?>>
           <a href="hilights/admin/hilights">
-            <i class="icon-th"></i>
+            <i class="icon-desktop"></i>
             <span>ไฮไลท์</span>
           </a>
         </li>
         
         <li <?php echo menu_active('informations','informations')?>>
           <a href="informations/admin/informations">
-            <i class="icon-th"></i>
+            <i class="icon-bullhorn"></i>
             <span>ข่าวสาร & โปรโมชัน</span>
           </a>
         </li>
         
-        <li <?php echo menu_active('address','address')?>>
-          <a href="addresses/admin/addresses/form">
-            <i class="icon-th"></i>
+        <li <?php echo menu_active('portfolios','portfolios')?>>
+          <a href="portfolios/admin/portfolios">
+            <i class="icon-picture"></i>
             <span>ผลงานของเรา</span>
           </a>
         </li>
         
         <li <?php echo menu_active('services','services')?>>
           <a href="services/admin/services/form">
-            <i class="icon-th"></i>
+            <i class="icon-briefcase"></i>
             <span>บริการของเรา</span>
           </a>
         </li>
         
         <li <?php echo menu_active('abouts','abouts')?>>
           <a href="abouts/admin/abouts/form">
-            <i class="icon-th"></i>
+            <i class="icon-group"></i>
             <span>เกี่ยวกับเรา</span>
           </a>
         </li>
         
         <li <?php echo menu_active('addresses','addresses')?>>
           <a href="addresses/admin/addresses/form">
-            <i class="icon-th"></i>
+            <i class="icon-map-marker"></i>
             <span>ที่อยู่บริษัท</span>
           </a>
         </li>
         
         <li <?php echo menu_active('weblinks','weblinks')?>>
           <a href="weblinks/admin/weblinks">
-            <i class="icon-th"></i>
+            <i class="icon-external-link"></i>
             <span>เว็บลิ้งค์</span>
           </a>
         </li>
         
         <li <?php echo menu_active('contacts','contacts')?>>
           <a href="contacts/admin/contacts">
-            <i class="icon-th"></i>
+            <i class="icon-envelope"></i>
             <span>ติดต่อ สอบถาม</span>
           </a>
         </li>

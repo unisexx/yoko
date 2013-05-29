@@ -2,7 +2,6 @@
 
 class Level extends ORM
 {
-	
 	public $table = 'levels';
 	
 	public $has_many = array('user');
@@ -11,7 +10,5 @@ class Level extends ORM
 	{
 		parent::__construct($id);
 	}
-	
 }
-
 ?>

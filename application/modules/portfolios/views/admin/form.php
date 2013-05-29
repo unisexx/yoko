@@ -1,34 +1,34 @@
 <div class="page-header position-relative">
-    <h1>Information <small><i class="icon-double-angle-right"></i> ข่าวสารและโปรโมชัน</small></h1>
+    <h1>Portfolio <small><i class="icon-double-angle-right"></i> ผลงานของเรา</small></h1>
 </div><!--/page-header-->
 
 <div class="row-fluid">
 <!-- PAGE CONTENT BEGINS HERE -->
-    <form id="validation-form" class="form-horizontal" method="post" action="informations/admin/informations/save/<?php echo $information->id?>" enctype="multipart/form-data">
+    <form id="validation-form" class="form-horizontal" method="post" action="portfolios/admin/portfolios/save/<?php echo $portfolio->id?>" enctype="multipart/form-data">
         
-        <!-- <div class="control-group">
-            <label class="control-label" for="id-input-file-1">ภาพประกอบข่าว</label>
+        <div class="control-group">
+            <label class="control-label" for="id-input-file-1">ภาพผลงาน</label>
             <div class="controls">
-                <?php if($information->image):?>
-                <img class="img" style="width:150px;" src="<?php echo (is_file('uploads/information/'.$information->image))? 'uploads/information/'.$information->image : 'media/images/dummy/656x253.gif' ?>"  /> <br><br>
+                <?php if($portfolio->image):?>
+                <img class="img" style="width:150px;" src="<?php echo (is_file('uploads/portfolio/'.$portfolio->image))? 'uploads/portfolio/'.$portfolio->image : 'media/images/dummy/656x253.gif' ?>"  /> <br><br>
                 <?php endif;?>
                 <div class="input-xxlarge">
                     <input type="file" id="id-input-file-1" name="image"/>
                 </div>
             </div>
-        </div> -->
+        </div>
         
         <div class="control-group">
             <label class="control-label" for="form-field-1">หัวข้อ</label>
             <div class="controls">
-                <input type="text" id="form-field-1" class="input-xxlarge" name="title" value="<?php echo $information->title?>">
+                <input type="text" id="form-field-1" class="input-xxlarge" name="title" value="<?php echo $portfolio->title?>">
             </div>
         </div>
         
         <div class="control-group">
             <label class="control-label" for="form-field-9">รายละเอียด</label>
             <div class="controls">
-                <textarea class="input-xxlarge" rows="5" id="form-field-9" name="detail"><?php echo $information->detail?></textarea>
+                <textarea class="input-xxlarge" rows="5" id="form-field-9" name="detail"><?php echo $portfolio->detail?></textarea>
             </div>
         </div>
         

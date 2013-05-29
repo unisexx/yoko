@@ -11,7 +11,7 @@
             <thead>
                 <tr>
                     <th>สถานะ</th>
-                    <th>รูป</th>
+                    <!-- <th>รูป</th> -->
                     <th>หัวข้อ</th>
                     <th><a class="btn btn-mini btn-primary" href="informations/admin/informations/form"><i class="icon-pencil"></i> เพิ่มรายการ </a></th>
                 </tr>
@@ -23,7 +23,7 @@
                     <td>
                         <label><input class="ace-switch ace-switch-4" type="checkbox" name="status" value="<?php echo $information->id ?>" <?php echo ($information->status=="approve")?'checked="checked"':'' ?>/><span class="lbl"></span></label>
                     </td>
-                    <td><img src="uploads/information/<?php echo $information->image?>" width="150"></td>
+                    <!-- <td><img src="uploads/information/<?php echo $information->image?>" width="150"></td> -->
                     <td><?php echo $information->title?></td>
                     <td>
                         <div class='hidden-phone visible-desktop btn-group'>
