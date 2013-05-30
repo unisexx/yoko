@@ -3,7 +3,7 @@
            <div class="container-fluid">
 
 
-              <a class="brand" href="#"><small><i class="icon-leaf"></i> ประยงด์ปาร์เก้</small> </a>
+              <a class="brand" href="" target="_blank"><small><i class="icon-leaf"></i> ประยงด์ปาร์เก้</small> </a>
               <ul class="nav ace-nav pull-right">
                     <!-- <li class="grey">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
