@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="media/font-awesome/css/font-awesome-ie7.min.css" />
 <![endif]-->
 
+<!--fonts-->
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" />
 
 <!-- page specific plugin styles -->
 <link rel="stylesheet" href="themes/admin/media/css/jquery-ui-1.10.2.custom.min.css" />
