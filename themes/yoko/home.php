@@ -17,21 +17,19 @@
     <?php include "_script.php";?>
     
     <!--le Google Fonts-->
-    <link href='http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,800,700' rel='stylesheet' type='text/css'>
+    <!-- <link href='http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,800,700' rel='stylesheet' type='text/css'> -->
 
 </head>
 
 <body>
     <?php include "_header.php";?>
-    
     <?php echo modules::run('hilights/inc_home'); ?>
 
 <section id="container" class="clearfix">
     <section id="welcome">
         <div class="hero-unit">
-            <h1>ยินดีต้อนรับเข้าสู่ <span>ประยงด์ปาร์เก้</span> - your new responsive website!</h1>
-
-            <p>Fringilla penatibus orci est non mollit, suspendisse pulvinar egestas a donec, iaculis aenean, parturient velit elit ac viverra vestibulum, quis et nascetur rutrum nibh molestie fusce. Sapien pede libero.</p>
+            <h1>ยินดีต้อนรับเข้าสู่ <span>ประยงด์ปาร์เก้</span> - <a href="http://www.ประยงด์ปาร์เก้.com">www.ประยงค์ปาร์เก้.com</a></h1>
+            <p>63/1247 ซ.คลองเก้า แขวงสามวาตะวันออก เขตคลองสามวา กทม. เบอร์โทร 0811164771,  0923527767 (ช่างประยงค์)</p>
             <a href="services" class="read-more">อ่านต่อ</a>
         </div>
     </section>

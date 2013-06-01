@@ -51,7 +51,7 @@
 <!--footer menu-->
 <section id="footer-menu">
         <div class="row-fluid">
-            <p class="span8">© 2013 Yoko. A Responsive Website template by <a style="color:#e1e1e1" href="http://dxthemes.com">DxThemes</a></p>
+            <p class="span8">© 2013 A Responsive Website template by <a style="color:#e1e1e1" href="http://www.adfree.in.th" target="_blank">Adfree</a> & <a style="color:#e1e1e1" href="http://www.kpoplover.com" target="_blank">Kpoplover</a></p>
             <p class="span4"><span class="pull-right">Copyright 2013 - All Rights Reserved</span></p>
         </div>
 </section>

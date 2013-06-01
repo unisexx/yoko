@@ -1,14 +1,14 @@
-@import url('http://fonts.googleapis.com/css?family=Droid+Sans');
+/*@import url('http://fonts.googleapis.com/css?family=Droid+Sans');
 @import url('http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700');
-@import url('http://fonts.googleapis.com/css?family=Carme');
-
+@import url('http://fonts.googleapis.com/css?family=Carme');*/
 /*-----------------------------------------------------------------------------------*/
 /*	1.	Global properties (body, common classes, vertical rhythm, structure etc)
 /*-----------------------------------------------------------------------------------*/
 body {
     color: #7D7A7A;
-    font-family: 'Arial',sans-serif;
-    font-size: 13px;
+    /*font-family: 'Arial',sans-serif;*/
+   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
     background: url("../images/bg2.png") #fff;
 }
 header,
@@ -80,7 +80,7 @@ h6{
 }
 
 p {
-    font-size: 12px;
+    /*font-size: 12px;*/
     line-height: 20px;
     margin-bottom: 25px;
 }
@@ -118,7 +118,7 @@ a:hover{
 .title a{
     color: #2e2e2e;
     font-weight: 600;
-    font-size: 12px;
+    /*font-size: 12px;*/
 }
 h3.title a {
     color: #272727;
@@ -276,7 +276,7 @@ button.close {
     vertical-align: baseline;
 }
 .logo img {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     margin-top: 65px;
 }
 .slogan {
@@ -374,7 +374,7 @@ button.close {
     color: #FFFFFF;
     display: block;
     font-family: 'Arial',sans-serif;
-    font-size: 12px;
+    /*font-size: 12px;*/
     font-weight: 700;
 }
 #menu > ul a:hover,
@@ -475,7 +475,7 @@ button.close {
 }
 #contact-details a{
     color: #000;
-    font-size: 12px;
+    /*font-size: 12px;*/
     font-weight: 500;
 }
 #contact-details i{
@@ -544,7 +544,7 @@ margin-right: 7px;
     color: #00AEEF;
 }
 .breadcrumbs div{
-    font-size: 12px;
+    /*font-size: 12px;*/
     color: #717171;
     display: inline-block;
 }
@@ -683,7 +683,7 @@ margin-right: 7px;
 }
 .slider-caption-right p, .slider-caption-left p {
     color: #BFBFBF;
-    font-size: 12px;
+    /*font-size: 12px;*/
     font-weight: 500;
     line-height: 18px;
     padding: 0 0 0 32px;
@@ -897,7 +897,7 @@ margin-right: 7px;
     text-transform: uppercase;
 }
 #welcome p {
-    font-size: 12px;
+    /*font-size: 12px;*/
     font-weight: 600;
     letter-spacing: normal;
     line-height: 20px;
@@ -1038,7 +1038,7 @@ footer .title-divider h3 {
 .our-blog article p.l-meta span {
     color: #FEFEFE;
     display: block;
-    font-size: 12px;
+    /*font-size: 12px;*/
     font-weight: 600;
     padding: 0 5px;
 }
@@ -1228,7 +1228,7 @@ article.span3 h4{
 #footer {
     background: none repeat scroll 0 0 #2B2B2B;
     color: #949494;
-    font-size: 12px;
+    /*font-size: 12px;*/
     padding-top: 25px;
     position: relative;
 }
