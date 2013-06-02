@@ -8,5 +8,5 @@
                 <p style="height: 80px; overflow: hidden;"><?php echo strip_tags($information->detail) ?></p>
             </article>
         </div>
-        <?php echo alternator('</div>','','');?>
-    <?php endforeach;?>
+    <?php echo alternator('','','</div>');?>
+<?php endforeach;?>
