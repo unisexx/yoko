@@ -20,6 +20,7 @@
             <button class="btn" type="reset"><i class="icon-undo"></i> Reset</button>
         </div>
         
+    </form>
 <!-- PAGE CONTENT ENDS HERE -->
 </div>
 
