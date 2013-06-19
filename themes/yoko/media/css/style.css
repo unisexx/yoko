@@ -64,7 +64,7 @@ h3{
     font-size: 18px;
     margin-bottom: 10px;
     line-height: 18px;
-    font-weight:400;
+    /*font-weight:400;*/
 }
 h4{
     font-size: 16px;
@@ -87,7 +87,7 @@ p {
 * p:last-child{margin-bottom: 0 !important;}
 
 .color, .color2{
-    font-weight: 700;
+    /*font-weight: 700;*/
     padding: 0 2px;
 }
 
@@ -117,14 +117,14 @@ a:hover{
 
 .title a{
     color: #2e2e2e;
-    font-weight: 600;
+    /*font-weight: 600;*/
     /*font-size: 12px;*/
 }
 h3.title a {
     color: #272727;
     display: inline-block;
     font-size: 16px;
-    font-weight: 600;
+    /*font-weight: 600;*/
     padding-bottom: 15px;
 }
 h4.title a{
@@ -375,7 +375,7 @@ button.close {
     display: block;
     font-family: 'Arial',sans-serif;
     /*font-size: 12px;*/
-    font-weight: 700;
+    /*font-weight: 700;*/
 }
 #menu > ul a:hover,
 #menu .current{
@@ -476,7 +476,7 @@ button.close {
 #contact-details a{
     color: #000;
     /*font-size: 12px;*/
-    font-weight: 500;
+    /*font-weight: 500;*/
 }
 #contact-details i{
 margin-right: 1px;
@@ -565,7 +565,7 @@ margin-right: 7px;
     color: #00AEEF;
     font-family: Arial;
     font-size: 20px;
-    font-weight: 500;
+    /*font-weight: 500;*/
     margin-bottom: 5px;
 }
 .page-title span {color: #969696}
@@ -678,13 +678,13 @@ margin-right: 7px;
     color: #FFFFFF;
     font-family: 'Ariel',sans-serif;
     font-size: 16px;
-    font-weight: 600;
+    /*font-weight: 600;*/
     padding: 25px 0 0 32px;
 }
 .slider-caption-right p, .slider-caption-left p {
     color: #BFBFBF;
     /*font-size: 12px;*/
-    font-weight: 500;
+    /*font-weight: 500;*/
     line-height: 18px;
     padding: 0 0 0 32px;
 }
@@ -717,7 +717,7 @@ margin-right: 7px;
     left: 90px;
     position: absolute;
     display: block;
-    font-weight: 400 !important;
+    /*font-weight: 400 !important;*/
     line-height: 1.5;
     max-width: 400px;
     margin-bottom: 30px;
@@ -891,14 +891,14 @@ margin-right: 7px;
 #welcome h1 {
     color: #403E3C;
     font-size: 18px;
-    font-weight: 600;
+    /*font-weight: 600;*/
     letter-spacing: normal;
     margin-bottom: 10px !important;
     text-transform: uppercase;
 }
 #welcome p {
     /*font-size: 12px;*/
-    font-weight: 600;
+    /*font-weight: 600;*/
     letter-spacing: normal;
     line-height: 20px;
     margin-bottom: 30px;
@@ -1029,7 +1029,7 @@ footer .title-divider h3 {
     background: none repeat scroll 0 0 #272727;
     color: #969696;
     font-size: 14px;
-    font-weight: 100;
+    /*font-weight: 100;*/
     margin: 0 0 20px;
     padding: 5px 0;
     width: 100%;
@@ -1039,7 +1039,7 @@ footer .title-divider h3 {
     color: #FEFEFE;
     display: block;
     /*font-size: 12px;*/
-    font-weight: 600;
+    /*font-weight: 600;*/
     padding: 0 5px;
 }
 .our-blog article p.l-meta a{color: #b6b6b6;}
@@ -1074,7 +1074,7 @@ footer .title-divider h3 {
 }
 .our-news .news-data span{
     display: block;
-    font-weight:900;
+    /*font-weight:900;*/
     font-size: 42px;
     line-height: 42px;
 }
@@ -1112,7 +1112,7 @@ article.span3 h4{
 
 .accordion-group {border:0;}
 .accordion .accordion-toggle{
-    font-weight: 900;
+    /*font-weight: 900;*/
     color: #fff;
     padding: 5px 10px;
     background-color: #b6b6b6;
@@ -1194,7 +1194,7 @@ article.span3 h4{
     display: block;
     padding-top: 20px;
     font-size: 16px;
-    font-weight: 400;
+    /*font-weight: 400;*/
     letter-spacing: 0.05em;
     color:#2e2e2e;
     font-weight: bold;
@@ -1239,7 +1239,7 @@ article.span3 h4{
     color: #FEFEFE;
     font-family: Arial;
     font-size: 14px;
-    font-weight: 600;
+    /*font-weight: 600;*/
     letter-spacing: normal;
     margin-bottom: 25px;
     text-transform: uppercase;
@@ -1352,7 +1352,7 @@ article.span3 h4{
     color: #FFFFFF;
     display: inline-block;
     font-size: 13px;
-    font-weight: 500;
+    /*font-weight: 500;*/
     margin: 3px 0 0;
     padding: 6px 20px;
     text-shadow: none;
@@ -1405,7 +1405,7 @@ article.span3 h4{
     font-size: 10px;
 }
 #footer-menu a{
-    font-weight: 400;
+    /*font-weight: 400;*/
     color: #fff;
     font-size:11px;
 }
@@ -1527,7 +1527,7 @@ article.span3 h4{
     display: block;
     font-family: Arial, sans-serif;
     font-size: 22px;
-    font-weight: 500;
+    /*font-weight: 500;*/
     padding-bottom: 15px;
 }
 #sidebar{
@@ -1830,7 +1830,7 @@ article.span3 h4{
     text-align: center;
     font-size: 24px;
 }
-.aboutus .color2{font-weight: 400;}
+/*.aboutus .color2{font-weight: 400;}*/
 /* Services Block */
 .ident-bot-2 {margin-bottom: 17px;}
 .figure-1 a.left-image {
@@ -2087,7 +2087,7 @@ textarea.error {border: 1px solid #ff3f3f;}
     color: #E9E6E6;
     display: inline;
     font-size: 12px;
-    font-weight: 600;
+    /*font-weight: 600;*/
     letter-spacing: normal;
     padding: 8px 12px;
 }

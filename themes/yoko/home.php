@@ -17,7 +17,7 @@
     <?php include "_script.php";?>
     
     <!--le Google Fonts-->
-    <!-- <link href='http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,800,700' rel='stylesheet' type='text/css'> -->
+    <link href='http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,800,700' rel='stylesheet' type='text/css'>
 
 </head>
 
